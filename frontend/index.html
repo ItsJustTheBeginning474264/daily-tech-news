@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌙 Daily Tech News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main container for our app -->
+  <div class="container">
+    <!-- Header section -->
+    <header>
+      <h1>🌙 Daily Tech News</h1>
+      <p>Your calm evening dose of technology updates</p>
+    </header>
+
+    <!-- Control panel with buttons -->
+    <div class="controls">
+      <button id="fetchBtn" class="btn btn-primary">
+        📡 Fetch Latest News
+      </button>
+      <button id="refreshBtn" class="btn btn-secondary">
+        🔄 Refresh Articles
+      </button>
+    </div>
+
+    <!-- Status message area -->
+    <div id="status" class="status"></div>
+
+    <!-- This is where articles will appear -->
+    <div id="articles" class="articles-container">
+      <p class="placeholder">Click "Fetch Latest News" to get started</p>
+    </div>
+  </div>
+
+  <!-- Load our JavaScript file -->
+  <script src="app.js"></script>
+</body>
+</html>
